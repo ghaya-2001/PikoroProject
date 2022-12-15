@@ -1,0 +1,54 @@
+.i-right{
+   
+    margin-left: 67rem;
+    margin-top: -20rem;
+    transform: scale(0.8);
+}
+.i-button{
+    
+    margin-left: 2rem;
+}
+.j-button{
+    margin-left: 1rem;
+    background-color: white;
+    border: 1px solid ;
+
+    
+}
+.i-name{
+    flex: 1;   
+    flex-direction: column;
+    justify-content: center;
+    color: #002147;
+    font-style:'Georgia Pro BoldbyMonotype-Font Bureau ';
+    
+}
+
+.i-name>:nth-child(1){
+    color: var(--black);
+    font-weight: bold;
+    font-size:1rem ;
+    
+}
+
+.i-name>:nth-child(3){
+    color: var(--black);
+    font-weight: bold;
+    font-size:3rem ;
+    justify-content: baseline;
+    
+    
+}
+.i-name>:nth-child(4){
+    color: var(--black);
+    font-weight: bold;
+    font-size:3rem ;
+    
+    
+}
+.i-Left{
+
+   margin-left: 2rem;
+    flex-direction: column;
+  
+}

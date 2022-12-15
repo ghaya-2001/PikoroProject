@@ -1,0 +1,27 @@
+.contact-form{
+   
+    display: flex;
+    margin-left: 25rem;
+ }
+ .awesome{
+    margin-top: 7rem;
+    margin-left: 5rem;
+    
+ }
+ .awesome>:nth-child(1){
+    color: #fdc800;
+    font-weight: bold;
+    font-size:1rem ;   
+}
+.awesome>:nth-child(2){
+    font-weight: bold;
+    font-size:3rem ;   
+    color: #002147;
+}
+ 
+
+     
+     
+     
+     
+ 

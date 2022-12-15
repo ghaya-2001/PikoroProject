@@ -1,0 +1,47 @@
+.footer{
+    margin-top: 10rem;
+    display: flex;
+    
+    transform: scale(1.2);
+    position: relative;
+
+}
+ 
+.f-content{
+  position: absolute;
+  color: white;
+  
+    
+} 
+.head{
+  margin-top: 25.9rem;
+  transform: scale(0.8);
+  
+}
+.logo{
+  transform: scale(0.5);
+}
+@media screen and (max-width:480px){
+  .footer{
+    transform: scale(0.99);
+    margin: -3rem -4rem;
+    position: relative;
+    margin-top: -2rem;
+    flex-direction: column;
+    height: 9rem;
+    padding: 0;
+
+  }
+  .f-content{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 4rem;
+    gap: 4ezm;
+    color: white;
+      
+  } 
+}

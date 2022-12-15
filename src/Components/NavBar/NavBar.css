@@ -1,0 +1,84 @@
+.n-wrapper{
+    vertical-align: top;
+    height: 30vh;
+    display:flex;
+    justify-content:space-between;
+    
+}
+.img{
+    margin-top:-2rem;
+    position: absolute;
+    transform: scale(2);
+    }
+.img1{
+    margin-top:-2rem;
+    position: absolute;
+    transform: scale(2);
+    margin-left: 71rem;
+        }
+.Logo{
+    transform: scale(0.2);
+    margin-top: -4rem;
+}
+.content{
+        position: absolute;
+        display: flex;
+           
+        width: 100%;
+        margin-top: 1.9rem;
+        color: white;
+        transform: scale(0.4);
+              
+          }        
+.n-left{
+    
+    margin-top: 5%;
+    flex:1; 
+    display: flex;
+    gap: 2rem;
+    
+        
+}
+.name{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-left: 30rem;
+    margin-top: 2rem;
+    
+}
+.n-right{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    
+
+}
+.n-List{
+    
+    flex: 10;
+    color: #002147;
+}
+.n-List>ul{
+    display: flex;
+    gap: 2rem;
+    margin-right: 4rem;
+    cursor: pointer;
+    
+
+}
+
+
+.n-button{
+    flex: 2;
+    color: black;
+}
+@media screen and (max-width:480px){
+    .n-List{
+        display: none;
+    }
+    .n-button{
+        display: none;
+    }
+}
